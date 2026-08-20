@@ -6,6 +6,10 @@ import { Search, MapPin, Globe, PhoneCall, CheckCircle2, User, Phone, Play, X, M
 const API_BASE = 'http://localhost:8000/api';
 
 const NICHES = [
+  { id: 'realestate', label: 'Immobilier de Luxe (High-Ticket)' },
+  { id: 'concierge', label: 'Conciergerie de Luxe (High-Ticket)' },
+  { id: 'cosmetic_dentist', label: 'Dentiste Esthétique (High-Ticket)' },
+  { id: 'fine_dining', label: 'Restauration Gastro (High-Ticket)' },
   { id: 'garage', label: 'Garage & Mécanique' },
   { id: 'agriculture', label: 'Agriculture & Fermes' },
   { id: 'construction', label: 'Construction & Bâtiment' },
@@ -61,6 +65,9 @@ export default function Dashboard() {
   const [uploadFile, setUploadFile] = useState<File | null>(null);
 
   const [generatingId, setGeneratingId] = useState<number | null>(null);
+  
+  // Search filter for leads
+  const [searchFilter, setSearchFilter] = useState('');
 
   useEffect(() => {
     fetchLeads();
@@ -240,9 +247,10 @@ export default function Dashboard() {
   };
 
   // Filtrage des listes
-  const newLeads = leads.filter(l => l.status === 'new' || !l.status);
-  const validatedLeads = leads.filter(l => l.status === 'validated');
-  const readyLeads = leads.filter(l => l.status === 'prototype_ready');
+  const filteredLeads = leads.filter(l => searchFilter === '' || (l.name && l.name.toLowerCase().includes(searchFilter.toLowerCase())));
+  const newLeads = filteredLeads.filter(l => l.status === 'new' || !l.status);
+  const validatedLeads = filteredLeads.filter(l => l.status === 'validated');
+  const readyLeads = filteredLeads.filter(l => l.status === 'prototype_ready');
 
   return (
     <div className="min-h-screen bg-slate-950 text-white font-sans selection:bg-blue-500/30">
@@ -347,7 +355,7 @@ export default function Dashboard() {
             
             {/* Table des Leads Léo avec Validation */}
             <div className="bg-slate-900/50 border border-white/10 rounded-3xl overflow-hidden backdrop-blur-sm shadow-xl">
-              <div className="px-6 py-5 border-b border-white/5 flex items-center justify-between bg-slate-950/30">
+              <div className="px-6 py-5 border-b border-white/5 flex flex-col sm:flex-row sm:items-center justify-between bg-slate-950/30 gap-4">
                 <div className="flex items-center gap-4">
                   <h3 className="font-semibold text-lg flex items-center gap-2">
                     <Search className="w-5 h-5 text-blue-400" /> Nouveaux Prospects
@@ -355,17 +363,31 @@ export default function Dashboard() {
                   <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-bold">{newLeads.length} à traiter</span>
                 </div>
                 
-                {/* Bouton de Validation Multiple */}
-                {selectedLeads.length > 0 && (
-                  <button 
-                    onClick={validateSelectedLeads}
-                    disabled={validating}
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 shadow-lg shadow-emerald-500/20"
-                  >
-                    {validating ? 'Validation...' : `Valider la sélection (${selectedLeads.length})`}
-                    {!validating && <CheckSquare className="w-4 h-4" />}
-                  </button>
-                )}
+                <div className="flex items-center gap-4">
+                  {/* Barre de recherche locale */}
+                  <div className="relative">
+                    <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
+                    <input 
+                      type="text" 
+                      placeholder="Chercher une entreprise..." 
+                      value={searchFilter}
+                      onChange={(e) => setSearchFilter(e.target.value)}
+                      className="bg-slate-950 border border-white/10 rounded-xl py-2 pl-10 pr-4 text-sm text-white focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all w-64"
+                    />
+                  </div>
+
+                  {/* Bouton de Validation Multiple */}
+                  {selectedLeads.length > 0 && (
+                    <button 
+                      onClick={validateSelectedLeads}
+                      disabled={validating}
+                      className="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 shadow-lg shadow-emerald-500/20"
+                    >
+                      {validating ? 'Validation...' : `Valider la sélection (${selectedLeads.length})`}
+                      {!validating && <CheckSquare className="w-4 h-4" />}
+                    </button>
+                  )}
+                </div>
               </div>
               
               <div className="overflow-x-auto">
