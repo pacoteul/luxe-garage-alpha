@@ -368,13 +368,17 @@ export default function Home() {
 
             {/* Call To Action Card */}
             <div className="bento-item md:col-span-2 bg-gradient-to-br from-white/10 to-transparent backdrop-blur-xl border border-white/20 p-8 md:p-12 rounded-3xl flex flex-col items-center justify-center text-center hover:border-white/40 transition-colors duration-500 min-h-[400px] md:min-h-[450px]">
-              <h3 className="text-3xl md:text-5xl font-bold text-white mb-6">{activeTheme.cta.title}</h3>
-              <p className="text-white/70 text-lg md:text-xl mb-10 max-w-lg">{activeTheme.cta.subtitle}</p>
+              <h3 className="text-3xl md:text-5xl font-bold text-white mb-6">
+                {config.cta ? config.cta.title : activeTheme.cta.title}
+              </h3>
+              <p className="text-white/70 text-lg md:text-xl mb-10 max-w-lg">
+                {config.cta ? config.cta.subtitle : activeTheme.cta.subtitle}
+              </p>
               <button 
                 className="px-8 py-4 md:px-10 md:py-5 rounded-full font-bold text-black text-lg md:text-xl hover:scale-105 transition-all flex items-center gap-3"
                 style={{ backgroundColor: config.primary_color }}
               >
-                Démarrer le projet <span>→</span>
+                {config.language === 'en' ? 'Start your project' : 'Démarrer le projet'} <span>→</span>
               </button>
             </div>
             
