@@ -270,7 +270,7 @@ export default function Home() {
 
       {/* 3D or Video Background */}
       <div className="fixed inset-0 z-0 overflow-hidden w-screen h-screen bg-black">
-        {['garage', 'agriculture', 'realestate'].includes(config.spline_scene_id) ? (
+        {['garage', 'agriculture', 'realestate', 'concierge'].includes(config.spline_scene_id) ? (
           <video 
             src={`/videos/${config.spline_scene_id}.mp4`} 
             autoPlay 
