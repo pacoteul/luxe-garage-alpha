@@ -251,14 +251,13 @@ export default function Home() {
       ></div>
 
       {/* Navbar Glassmorphism */}
-      <nav className="fixed top-0 w-full p-6 z-40 flex justify-between items-center mix-blend-difference">
-        <div className="text-sm font-bold tracking-widest uppercase flex items-center gap-2 z-10">
-          <span className="w-2 h-2 rounded-full" style={{ backgroundColor: config.primary_color }}></span>
+      <nav className="absolute top-0 left-0 w-full p-8 flex justify-between items-center z-50">
+        <div className="text-xl font-bold tracking-widest text-primary">
           {config.business_name ? config.business_name.toUpperCase() : "AGENCE DÉMO"}
         </div>
         <div className="hidden md:flex gap-8 text-sm font-light">
-          <a href="#" className="hover:opacity-50 transition-opacity">Accueil</a>
-          <a href="#services" className="hover:opacity-50 transition-opacity">Savoir-Faire</a>
+          <a href="#" className="hover:opacity-50 transition-opacity">{config.language === 'en' ? 'Home' : 'Accueil'}</a>
+          <a href="#services" className="hover:opacity-50 transition-opacity">{config.language === 'en' ? 'Expertise' : 'Savoir-Faire'}</a>
           <a href="#" className="hover:opacity-50 transition-opacity">Contact</a>
         </div>
         <button className="md:hidden px-4 py-2 border border-white/20 rounded-full text-xs">Menu</button>
@@ -285,11 +284,10 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="h-screen flex flex-col items-center justify-center px-4 text-center z-10 relative pointer-events-none">
-        <div 
-          className="hero-char px-5 py-2 mb-8 rounded-full border border-white/10 backdrop-blur-md text-xs font-semibold tracking-[0.2em] uppercase shadow-2xl"
-          style={{ color: config.primary_color, backgroundColor: 'rgba(255,255,255,0.03)' }}
-        >
-          Expérience Digitale
+        <div className="inline-block px-4 py-1 border border-white/20 rounded-full text-xs font-light tracking-[0.2em] mb-8 hero-char">
+          <span style={{ color: config.primary_color }}>
+            {config.language === 'en' ? 'DIGITAL EXPERIENCE' : 'EXPÉRIENCE DIGITALE'}
+          </span>
         </div>
         
         <h1 className="text-[clamp(2.5rem,10vw,8rem)] font-extrabold mb-6 max-w-[95vw] leading-[0.9] tracking-tighter" style={{ perspective: "1000px" }}>
@@ -309,14 +307,18 @@ export default function Home() {
 
       {/* Services / Bento Grid Section */}
       <section id="services" className="min-h-screen relative z-10 bg-black/40 backdrop-blur-2xl border-t border-white/5 py-32 px-6 md:px-12 lg:px-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto z-10 relative">
           <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
             <h2 className="text-4xl md:text-6xl font-light leading-tight">
-              L'excellence de notre <br/>
-              <span style={{ color: config.primary_color, fontWeight: 'bold' }}>Savoir-Faire</span>.
+              {config.language === 'en' ? 'The excellence of our' : "L'excellence de notre"} <br/>
+              <span style={{ color: config.primary_color, fontWeight: 'bold' }}>
+                {config.language === 'en' ? 'Expertise' : 'Savoir-Faire'}.
+              </span>
             </h2>
             <p className="max-w-sm opacity-50 text-sm md:text-base">
-              Nous repoussons les limites du digital pour concevoir des expériences sur-mesure qui transforment votre vision en réalité.
+              {config.language === 'en' 
+                ? "We push the boundaries of digital to design tailor-made experiences that turn your vision into reality."
+                : "Nous repoussons les limites du digital pour concevoir des expériences sur-mesure qui transforment votre vision en réalité."}
             </p>
           </div>
           
@@ -378,13 +380,11 @@ export default function Home() {
             
           </div>
 
-          {/* Section Avis Google */}
+          {/* Reviews Section */}
           {config.reviews && config.reviews.length > 0 && (
-            <div className="mt-16 md:mt-24">
-              <h3 className="text-2xl md:text-4xl font-bold text-white mb-10 text-center flex items-center justify-center gap-4">
-                <span className="text-yellow-400 text-2xl md:text-3xl">★</span> 
-                Ce que disent vos clients
-                <span className="text-yellow-400 text-2xl md:text-3xl">★</span>
+            <div className="mt-40">
+              <h3 className="text-3xl md:text-5xl font-bold text-center mb-20">
+                {config.language === 'en' ? 'What they say about us.' : "Ce qu'ils disent de nous."}
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {config.reviews.map((review, idx) => (
