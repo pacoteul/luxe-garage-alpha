@@ -27,6 +27,11 @@ interface Config {
   hero_subtext: string;
   gsap_stagger: number;
   spline_scene_id: string;
+  language?: string;
+  cta?: {
+    title: string;
+    subtitle: string;
+  };
   reviews?: Review[];
   services?: {
     title: string;
