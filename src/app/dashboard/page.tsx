@@ -17,7 +17,17 @@ const NICHES = [
   { id: 'b2b_industrial', label: 'Entreprises B2B & Industrie' },
   { id: 'realestate', label: 'Immobilier de Luxe (High-Ticket)' },
   { id: 'concierge', label: 'Conciergerie de Luxe (High-Ticket)' },
-  { id: 'fine_dining', label: 'Restauration Gastro (High-Ticket)' }
+  { id: 'cosmetic_dentist', label: 'Dentiste Esthétique (High-Ticket)' },
+  { id: 'fine_dining', label: 'Restauration Gastro (High-Ticket)' },
+  { id: 'garage', label: 'Garage & Mécanique' },
+  { id: 'agriculture', label: 'Agriculture & Fermes' },
+  { id: 'construction', label: 'Construction & Bâtiment' },
+  { id: 'architecture', label: 'Architecture & Design' },
+  { id: 'dentist', label: 'Dentiste & Médical' },
+  { id: 'food', label: 'Restauration & Boulangerie' },
+  { id: 'nature', label: 'Nature & Fleuristes' },
+  { id: 'tech', label: 'Tech & Agences' },
+  { id: 'abstract', label: 'Consulting & Abstrait' }
 ];
 
 const COUNTRIES = [
