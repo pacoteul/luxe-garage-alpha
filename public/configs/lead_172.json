@@ -1,0 +1,56 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Escape to Your Dream Getaway",
+    "hero_subtext": "Experience the ultimate holiday home letting experience with NCG Experience",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "realestate",
+    "business_name": "NCG Experience",
+    "reviews": [
+        {
+            "author": "Emily R.",
+            "rating": 5,
+            "text": "NCG Experience went above and beyond to find us the perfect holiday home. Highly recommend!"
+        },
+        {
+            "author": "David K.",
+            "rating": 5,
+            "text": "Their customer service is top-notch! We had an amazing time at our rented villa, thanks to NCG Experience."
+        },
+        {
+            "author": "Sarah T.",
+            "rating": 5,
+            "text": "NCG Experience made our holiday planning seamless and stress-free. We can't wait to book again!"
+        }
+    ],
+    "services": [
+        {
+            "title": "Holiday Home Rentals",
+            "description": "Discover our curated selection of luxury holiday homes, carefully chosen to provide the ultimate getaway experience.",
+            "icon": "🏠",
+            "image_keyword": "luxury villa",
+            "image_url": "/uploads/lead_172_service_0.webp"
+        },
+        {
+            "title": "Personalized Concierge Service",
+            "description": "Our dedicated team will take care of every detail, ensuring a truly unforgettable holiday experience.",
+            "icon": "📞",
+            "image_keyword": "concierge service",
+            "image_url": "/uploads/lead_172_service_1.jpg"
+        },
+        {
+            "title": "Local Insights and Recommendations",
+            "description": "Get insider knowledge on the best local attractions, restaurants, and activities to make the most of your holiday.",
+            "icon": "🗺️",
+            "image_keyword": "local guide",
+            "image_url": "/uploads/lead_172_service_2.jpg"
+        }
+    ],
+    "cta": {
+        "title": "Book Your Dream Getaway Today!",
+        "subtitle": "Contact us to explore our exclusive holiday home rentals and experience the ultimate in luxury and relaxation."
+    },
+    "lead_id": 172,
+    "language": "en"
+}
