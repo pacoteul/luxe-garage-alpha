@@ -1,0 +1,28 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Accélérez votre expérience automobile",
+    "hero_subtext": "Découvrez notre expertise en mécanique automobile",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "garage",
+    "business_name": "Garage Claude Porte Doree.",
+    "reviews": [
+        {
+            "author": "Jean Dupont",
+            "rating": 5,
+            "text": "Je suis très satisfait du service reçu au Garage Claude Porte Doree. Les techniciens sont compétents et très professionnels. Je recommande vivement !"
+        },
+        {
+            "author": "Pierre Martin",
+            "rating": 5,
+            "text": "J'ai eu une expérience exceptionnelle au Garage Claude Porte Doree. Le personnel est sympathique et les prix sont très compétitifs. Je reviendrai certainement !"
+        },
+        {
+            "author": "Sophie Laurent",
+            "rating": 5,
+            "text": "Je suis ravie du travail effectué sur ma voiture au Garage Claude Porte Doree. Les délais ont été respectés et le résultat est impeccable. Je recommande à tous !"
+        }
+    ],
+    "lead_id": 33
+}
