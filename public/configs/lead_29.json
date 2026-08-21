@@ -1,0 +1,28 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Accélérez votre expérience automobile",
+    "hero_subtext": "Découvrez l'excellence de notre garage à Paris",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "garage",
+    "business_name": "Garage Paris Shweyangyan",
+    "reviews": [
+        {
+            "author": "Pierre Dupont",
+            "rating": 5,
+            "text": "J'ai été bluffé par la qualité de service et la compétence de l'équipe. Mon véhicule est comme neuf !"
+        },
+        {
+            "author": "Sophie Martin",
+            "rating": 5,
+            "text": "Je recommande vivement ce garage pour sa rapidité et sa transparence. Prix très compétitifs également."
+        },
+        {
+            "author": "Jean-Luc Lefebvre",
+            "rating": 5,
+            "text": "J'ai trouvé l'équipe très professionnelle et courtoise. Mon véhicule a été réparé en un temps record."
+        }
+    ],
+    "lead_id": 29
+}
