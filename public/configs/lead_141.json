@@ -1,0 +1,54 @@
+{
+    "lead_id": 141,
+    "name": "Luxury Apartment Group Ltd",
+    "business_name": "Luxury Apartment Group Ltd",
+    "language": "en",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "Excellence at your service.",
+    "hero_subtext": "A preserved tradition, at your service.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "realestate",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Exceptional service, highly recommended!"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "A very professional and attentive team."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Very satisfied with the quality of the service."
+        }
+    ],
+    "services": [
+        {
+            "title": "Luxury Properties",
+            "description": "An exclusive selection of the finest homes in the region.",
+            "icon": "🏰",
+            "image_keyword": "luxury,villa,exotic"
+        },
+        {
+            "title": "Bespoke Service",
+            "description": "VIP and strictly confidential assistance at every step.",
+            "icon": "⭐",
+            "image_keyword": "mansion,pool,modern"
+        },
+        {
+            "title": "Investment",
+            "description": "Unique opportunities to grow and secure your wealth.",
+            "icon": "📈",
+            "image_keyword": "luxury,architecture,ocean"
+        }
+    ],
+    "cta": {
+        "title": "Find your dream home",
+        "subtitle": "Contact our experts today to arrange a private viewing."
+    }
+}
