@@ -1,0 +1,49 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Elevate Your Living Experience",
+    "hero_subtext": "Luxury apartments for the modern scholar",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "realestate",
+    "business_name": "Scholars Quarter",
+    "reviews": [
+        {
+            "author": "Emily R.",
+            "rating": 5,
+            "text": "I've never felt so at home in an apartment building. The staff is friendly and the amenities are top-notch!"
+        },
+        {
+            "author": "David K.",
+            "rating": 5,
+            "text": "The location is perfect for my daily commute and the apartments are spacious and well-designed."
+        },
+        {
+            "author": "Sarah T.",
+            "rating": 5,
+            "text": "I love the sense of community here. The events and activities are always a great way to meet new people."
+        }
+    ],
+    "services": [
+        {
+            "title": "Luxury Living",
+            "description": "Experience the best of apartment living with our luxurious amenities and spacious floor plans.",
+            "icon": "🏠",
+            "image_keyword": "apartment, luxury"
+        },
+        {
+            "title": "Convenient Location",
+            "description": "Enjoy easy access to public transportation, shopping, and dining with our prime location.",
+            "icon": "📍",
+            "image_keyword": "city, map"
+        },
+        {
+            "title": "Exceptional Service",
+            "description": "Our dedicated staff is always available to help with any questions or concerns you may have.",
+            "icon": "👥",
+            "image_keyword": "customer, support"
+        }
+    ],
+    "lead_id": 140,
+    "language": "en"
+}
