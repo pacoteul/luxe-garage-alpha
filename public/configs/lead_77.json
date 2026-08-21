@@ -1,0 +1,52 @@
+{
+    "lead_id": 77,
+    "name": "LUXE GARAGE",
+    "business_name": "LUXE GARAGE",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "L'expertise mécanique de luxe.",
+    "hero_subtext": "Un service de haute qualité pour vos véhicules de prestige.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "garage",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Un service impeccable, des mécaniciens compétents et courtois."
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "Un garage de luxe qui répond à toutes mes attentes, je recommande vivement."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Des réparations de haute qualité, un service personnalisé et efficace."
+        }
+    ],
+    "services": [
+        {
+            "title": "Entretien de luxe",
+            "description": "Un service personnalisé pour les véhicules de prestige.",
+            "icon": "",
+            "image_keyword": "car,maintenance",
+            "image_url": "/uploads/lead_77_service_0.jpg"
+        },
+        {
+            "title": "Réparations spécialisées",
+            "description": "Des mécaniciens expérimentés pour les réparations complexes.",
+            "icon": "",
+            "image_keyword": "car,repair",
+            "image_url": "/uploads/lead_77_service_1.jpg"
+        },
+        {
+            "title": "Tuning et personnalisation",
+            "description": "Des solutions sur mesure pour les véhicules de luxe.",
+            "icon": "",
+            "image_keyword": "car,tuning",
+            "image_url": "/uploads/lead_77_service_2.jpg"
+        }
+    ]
+}
