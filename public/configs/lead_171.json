@@ -1,0 +1,57 @@
+{
+    "lead_id": 171,
+    "name": "Upscale Concierge Services LTD",
+    "business_name": "Upscale Concierge Services LTD",
+    "language": "en",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "Excellence at your service.",
+    "hero_subtext": "A preserved tradition, at your service.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "concierge",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Exceptional service, highly recommended!"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "A very professional and attentive team."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Very satisfied with the quality of the service."
+        }
+    ],
+    "services": [
+        {
+            "title": "Exclusive Travel",
+            "description": "Private jets, yachts, and dream villas around the globe.",
+            "icon": "✈️",
+            "image_keyword": "private,jet,luxury",
+            "image_url": "/uploads/lead_171_service_0.webp"
+        },
+        {
+            "title": "VIP Access",
+            "description": "The finest dining and most prestigious events at your fingertips.",
+            "icon": "🥂",
+            "image_keyword": "luxury,yacht,ocean",
+            "image_url": "/uploads/lead_171_service_1.jpg"
+        },
+        {
+            "title": "Private Chauffeur",
+            "description": "Premium transportation services available 24/7.",
+            "icon": "🚘",
+            "image_keyword": "vip,limousine,luxury",
+            "image_url": "/uploads/lead_171_service_2.jpg"
+        }
+    ],
+    "cta": {
+        "title": "Join the inner circle",
+        "subtitle": "Become a member for limitless services."
+    }
+}
