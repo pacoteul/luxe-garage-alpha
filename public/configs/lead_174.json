@@ -1,57 +1,57 @@
 {
     "lead_id": 174,
-    "name": "EXOTICSTAY | Appartements meublés et hébergement à Birmingham",
-    "business_name": "EXOTICSTAY | Appartements meublés et hébergement à Birmingham",
+    "name": "EXOTICSTAY | Luxury Apartments and Accommodation in Birmingham",
+    "business_name": "EXOTICSTAY | Luxury Apartments and Accommodation in Birmingham",
     "language": "en",
     "primary_color": "#D4AF37",
     "secondary_color": "#2c1e16",
     "typography": "Playfair Display",
-    "hero_text": "Excellence à votre service.",
-    "hero_subtext": "Une tradition préservée, à votre service.",
+    "hero_text": "Excellence at Your Service.",
+    "hero_subtext": "A Tradition Preserved, at Your Service.",
     "gsap_stagger": 0.2,
     "spline_scene_id": "realestate",
     "reviews": [
         {
             "author": "Jean P.",
             "rating": 5,
-            "text": "Service exceptionnel, je vous recommande vivement !"
+            "text": "Exceptional service, I highly recommend!"
         },
         {
             "author": "Sophie M.",
             "rating": 5,
-            "text": "Une équipe très professionnelle et attentive."
+            "text": "A very professional and attentive team."
         },
         {
             "author": "Marc D.",
             "rating": 5,
-            "text": "Très satisfait de la qualité du service."
+            "text": "Very satisfied with the quality of service."
         }
     ],
     "services": [
         {
-            "title": "Propriétés de luxe",
-            "description": "Une sélection exclusive des plus belles maisons de la région.",
-            "icon": "💎",
+            "title": "Luxury Properties",
+            "description": "An exclusive selection of the most beautiful homes in the region.",
+            "icon": "",
             "image_keyword": "luxe,villa,exotique",
             "image_url": "/uploads/lead_174_service_0.webp"
         },
         {
-            "title": "Service personnalisé",
-            "description": "Assistance VIP et strictement confidentielle à chaque étape.",
-            "icon": "🤝",
+            "title": "Personalized Service",
+            "description": "VIP assistance and strict confidentiality at every step.",
+            "icon": "",
             "image_keyword": "mansion,piscine,moderne",
             "image_url": "/uploads/lead_174_service_1.jpg"
         },
         {
-            "title": "Investissement",
-            "description": "Des opportunités uniques pour faire croître et sécuriser votre patrimoine.",
-            "icon": "📈",
+            "title": "Investment",
+            "description": "Unique opportunities to grow and secure your assets.",
+            "icon": "",
             "image_keyword": "luxe,architecture,océan",
             "image_url": "/uploads/lead_174_service_2.jpg"
         }
     ],
     "cta": {
-        "title": "Trouvez votre maison de rêve",
-        "subtitle": "Contactez nos experts aujourd'hui pour organiser une visite privée."
+        "title": "Find Your Dream Home",
+        "subtitle": "Contact our experts today to arrange a private viewing."
     }
 }
