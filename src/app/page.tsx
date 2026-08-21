@@ -73,38 +73,48 @@ export default function Home() {
   
   // Fetch config
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const b64Data = params.get('d');
-    const leadId = params.get('lead');
+    const parseConfig = async () => {
+      const params = new URLSearchParams(window.location.search);
+      const b64Data = params.get('d');
+      const compressedB64 = params.get('c');
+      const leadId = params.get('lead');
 
-    if (b64Data) {
-      try {
-        // Décodage Base64 avec support UTF-8 (pour les accents)
-        const binaryStr = atob(b64Data.replace(/-/g, '+').replace(/_/g, '/'));
-        const bytes = new Uint8Array(binaryStr.length);
-        for (let i = 0; i < binaryStr.length; i++) {
-            bytes[i] = binaryStr.charCodeAt(i);
+      if (compressedB64) {
+        try {
+          const binaryStr = atob(compressedB64.replace(/-/g, '+').replace(/_/g, '/'));
+          const bytes = new Uint8Array(binaryStr.length);
+          for (let i = 0; i < binaryStr.length; i++) {
+              bytes[i] = binaryStr.charCodeAt(i);
+          }
+          const cs = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate'));
+          const jsonStr = await new Response(cs).text();
+          setConfig(JSON.parse(jsonStr));
+        } catch (err) {
+          console.error("Erreur decodage config compressee:", err);
         }
-        const jsonStr = new TextDecoder('utf-8').decode(bytes);
-        setConfig(JSON.parse(jsonStr));
-      } catch (err) {
-        console.error("Erreur décodage de la configuration Base64:", err);
+      } else if (b64Data) {
+        try {
+          const binaryStr = atob(b64Data.replace(/-/g, '+').replace(/_/g, '/'));
+          const bytes = new Uint8Array(binaryStr.length);
+          for (let i = 0; i < binaryStr.length; i++) {
+              bytes[i] = binaryStr.charCodeAt(i);
+          }
+          const jsonStr = new TextDecoder('utf-8').decode(bytes);
+          setConfig(JSON.parse(jsonStr));
+        } catch (err) {
+          console.error("Erreur decodage Base64:", err);
+        }
+      } else if (leadId) {
+        fetch(`/config.json`)
+          .then(res => res.json())
+          .then((data) => setConfig(data))
+      } else {
+        fetch(`/config.json`)
+          .then(res => res.json())
+          .then((data) => setConfig(data))
       }
-    } else if (leadId) {
-      // Pour le développement local (Dashboard)
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      // L'API locale n'a pas encore de route GET /api/config/{lead_id}, 
-      // Mais on peut faire une route, ou charger config.json local par défaut.
-      fetch(`/config.json`)
-        .then(res => res.json())
-        .then((data) => setConfig(data))
-        .catch((err) => console.error("Erreur chargement config:", err));
-    } else {
-      fetch('/config.json')
-        .then(res => res.json())
-        .then((data) => setConfig(data))
-        .catch((err) => console.error("Erreur chargement config:", err));
-    }
+    };
+    parseConfig();
   }, []);
 
   // Dynamic Google Font Injection & Base Styles
