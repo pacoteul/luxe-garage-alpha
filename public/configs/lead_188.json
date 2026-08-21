@@ -1,0 +1,54 @@
+{
+    "lead_id": 188,
+    "name": "Concierge Luxury Travel",
+    "business_name": "Concierge Luxury Travel",
+    "language": "en",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "Excellence at your service.",
+    "hero_subtext": "A preserved tradition, at your service.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "architecture",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Exceptional service, highly recommended!"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "A very professional and attentive team."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Very satisfied with the quality of the service."
+        }
+    ],
+    "services": [
+        {
+            "title": "Custom Strategy",
+            "description": "A personalized approach to reach your goals with precision.",
+            "icon": "⭐",
+            "image_keyword": "strategy"
+        },
+        {
+            "title": "Flawless Execution",
+            "description": "Rigorous implementation guaranteeing impeccable quality.",
+            "icon": "✅",
+            "image_keyword": "execution"
+        },
+        {
+            "title": "Dedicated Support",
+            "description": "Continuous support to ensure the long-term success of your project.",
+            "icon": "🤝",
+            "image_keyword": "support"
+        }
+    ],
+    "cta": {
+        "title": "Ready to transform your vision?",
+        "subtitle": "Contact us today to discuss your specific needs."
+    }
+}
