@@ -1,0 +1,28 @@
+{
+    "primary_color": "#8B9467",
+    "secondary_color": "#2F343A",
+    "typography": "Montserrat",
+    "hero_text": "L'art de la mécanique, à la hauteur de vos rêves",
+    "hero_subtext": "Atelier de mécanique automobile de confiance, pour un service personnalisé et de qualité",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "garage",
+    "business_name": "Garage Des Roses",
+    "reviews": [
+        {
+            "author": "Pierre Dupont",
+            "rating": 5,
+            "text": "Un service exceptionnel, des mécaniciens compétents et sympathiques. Je recommande vivement le Garage Des Roses !"
+        },
+        {
+            "author": "Sophie Martin",
+            "rating": 5,
+            "text": "J'ai été très satisfaite de la réparation de ma voiture. Le prix était raisonnable et le travail a été effectué rapidement. Merci !"
+        },
+        {
+            "author": "Jean-Pierre Laurent",
+            "rating": 5,
+            "text": "Le Garage Des Roses est un véritable partenaire pour les propriétaires de voitures. Les conseils sont toujours judicieux et les réparations sont de haute qualité."
+        }
+    ],
+    "lead_id": 32
+}
