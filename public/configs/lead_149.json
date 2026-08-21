@@ -1,0 +1,54 @@
+{
+    "lead_id": 149,
+    "name": "LTV Immobilien AG",
+    "business_name": "LTV Immobilien AG",
+    "language": "de",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "Exklusive Immobilien.",
+    "hero_subtext": "Einzigartige Objekte für anspruchsvolle Kunden.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "realestate",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Ausgezeichneter Service, ich empfehle ihn sehr !"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "Ein sehr professionelles und aufmerksames Team."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Sehr zufrieden mit der Qualität der Leistung."
+        }
+    ],
+    "services": [
+        {
+            "title": "Luxusimmobilien",
+            "description": "Eine exklusive Auswahl der schönsten Häuser der Region.",
+            "icon": "🏰",
+            "image_keyword": "luxury,villa,exotic"
+        },
+        {
+            "title": "Maßgeschneiderter Service",
+            "description": "Eine VIP-Betreuung und diskrete Begleitung bei jedem Schritt.",
+            "icon": "⭐",
+            "image_keyword": "mansion,pool,modern"
+        },
+        {
+            "title": "Investition",
+            "description": "Einzigartige Chancen, Ihr Vermögen zu steigern.",
+            "icon": "📈",
+            "image_keyword": "luxury,architecture,ocean"
+        }
+    ],
+    "cta": {
+        "title": "Finden Sie Ihre Traumimmobilie",
+        "subtitle": "Kontaktieren Sie unsere Experten für eine private Besichtigung."
+    }
+}
