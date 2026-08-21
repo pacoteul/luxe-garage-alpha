@@ -1,0 +1,28 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Bâtir l'avenir, pierre par pierre",
+    "hero_subtext": "Découvrez notre expertise dans la construction de qualité",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "construction",
+    "business_name": "D.vivant",
+    "reviews": [
+        {
+            "author": "Alexandre L.",
+            "rating": 5,
+            "text": "Très satisfaits du travail effectué par D.vivant ! La communication a été parfaite et les résultats sont exceptionnels."
+        },
+        {
+            "author": "Julie B.",
+            "rating": 5,
+            "text": "Je recommande vivement D.vivant pour tout projet de construction. L'équipe est professionnelle et très réactive."
+        },
+        {
+            "author": "Pierre D.",
+            "rating": 5,
+            "text": "D.vivant a dépassé nos attentes ! Leur expertise et leur dévouement ont rendu notre projet de rêve une réalité."
+        }
+    ],
+    "lead_id": 59
+}
