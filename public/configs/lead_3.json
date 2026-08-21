@@ -1,0 +1,28 @@
+{
+    "primary_color": "#FFC107",
+    "secondary_color": "#333",
+    "typography": "Montserrat",
+    "hero_text": "Le pain, c'est notre histoire",
+    "hero_subtext": "Découvrez les saveurs authentiques de notre boulangerie",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "food",
+    "business_name": "Le Pain du Quartier",
+    "reviews": [
+        {
+            "author": "Sophie Dupont",
+            "rating": 5,
+            "text": "Je suis absolument ravie de cette boulangerie ! Les pains sont toujours frais et délicieux. Le service est également très sympathique."
+        },
+        {
+            "author": "Pierre Martin",
+            "rating": 5,
+            "text": "Je recommande vivement cette boulangerie ! Les produits sont de haute qualité et les prix sont très raisonnables. Je suis client régulier depuis des mois maintenant."
+        },
+        {
+            "author": "Aurélie Laurent",
+            "rating": 5,
+            "text": "J'ai découvert cette boulangerie il y a quelques semaines et je suis déjà accro ! Les viennoiseries sont délicieuses et le personnel est très accueillant."
+        }
+    ],
+    "lead_id": 3
+}
