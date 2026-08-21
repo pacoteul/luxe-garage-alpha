@@ -1,0 +1,53 @@
+{
+    "lead_id": 85,
+    "name": "Adam’s Auto Care Centre",
+    "business_name": "Adam’s Auto Care Centre",
+    "language": "en",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "The passion for mechanics.",
+    "hero_subtext": "A preserved tradition, at your service.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "garage",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Exceptional service, highly recommended!"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "A very professional and attentive team."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Very satisfied with the quality of the service."
+        }
+    ],
+    "services": [
+        {
+            "title": "Book an appointment",
+            "description": "Start your project with our team.",
+            "icon": "",
+            "image_keyword": "business",
+            "image_url": "/uploads/lead_85_service_0.jpg"
+        },
+        {
+            "title": "Service 2",
+            "description": "Guaranteed quality.",
+            "icon": "",
+            "image_keyword": "service",
+            "image_url": "/uploads/lead_85_service_1.jpg"
+        },
+        {
+            "title": "Service 3",
+            "description": "Custom made.",
+            "icon": "",
+            "image_keyword": "support",
+            "image_url": "/uploads/lead_85_service_2.jpg"
+        }
+    ]
+}
