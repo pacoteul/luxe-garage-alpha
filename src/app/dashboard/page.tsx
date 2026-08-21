@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Search, MapPin, Globe, PhoneCall, CheckCircle2, User, Phone, Play, X, Mail, CheckSquare, MessageCircle, Rocket } from 'lucide-react';
+import { Search, MapPin, Globe, PhoneCall, CheckCircle2, User, Phone, Play, X, Mail, CheckSquare, MessageCircle, Rocket, Copy } from 'lucide-react';
 
 const API_BASE = 'http://localhost:8000/api';
 
@@ -556,14 +556,26 @@ export default function Dashboard() {
                   </div>
                   
                   <div className="mt-auto space-y-3">
-                    <a 
-                      href={lead.demo_url || `/?lead=${lead.id}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full bg-slate-800 hover:bg-slate-700 text-white font-medium py-3 rounded-xl shadow-inner transition-all flex items-center justify-center gap-2 border border-white/5"
-                    >
-                      <Globe className="w-5 h-5 text-purple-400" /> Voir la Maquette 3D
-                    </a>
+                    <div className="flex gap-2 w-full">
+                      <a 
+                        href={lead.demo_url || `/?lead=${lead.id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-slate-800 hover:bg-slate-700 text-white font-medium py-3 rounded-xl shadow-inner transition-all flex items-center justify-center gap-2 border border-white/5"
+                      >
+                        <Globe className="w-5 h-5 text-purple-400" /> Voir Maquette
+                      </a>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText(lead.demo_url || `http://localhost:3000/?lead=${lead.id}`);
+                          alert('Lien copié dans le presse-papier !');
+                        }}
+                        className="w-12 bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium rounded-xl shadow-inner transition-all flex items-center justify-center border border-white/5"
+                        title="Copier le lien"
+                      >
+                        <Copy className="w-5 h-5" />
+                      </button>
+                    </div>
                     
                     <div className="flex gap-2">
                       <button 
