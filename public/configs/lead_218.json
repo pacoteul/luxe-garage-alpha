@@ -1,0 +1,53 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Smile Brighter, Live Brighter",
+    "hero_subtext": "Expert Dental Care for a Healthier You",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "dentist",
+    "business_name": "DTLA Smile",
+    "reviews": [
+        {
+            "author": "Emily R.",
+            "rating": 5,
+            "text": "I've never felt so comfortable at the dentist! The team at DTLA Smile is amazing."
+        },
+        {
+            "author": "David K.",
+            "rating": 5,
+            "text": "The best dental experience I've ever had. Highly recommend DTLA Smile!"
+        },
+        {
+            "author": "Sarah K.",
+            "rating": 5,
+            "text": "I was blown away by the expertise and care of the dentists at DTLA Smile."
+        }
+    ],
+    "services": [
+        {
+            "title": "General Dentistry",
+            "description": "Preventive care and routine check-ups for a healthy smile. Our team is dedicated to providing you with the best possible care.",
+            "icon": "💫",
+            "image_keyword": "dental exam"
+        },
+        {
+            "title": "Cosmetic Dentistry",
+            "description": "Transform your smile with our advanced cosmetic dentistry services. From teeth whitening to veneers, we've got you covered.",
+            "icon": "✨",
+            "image_keyword": "smile makeover"
+        },
+        {
+            "title": "Restorative Dentistry",
+            "description": "Get back to a healthy, functional smile with our restorative dentistry services. From fillings to crowns, we'll help you restore your smile.",
+            "icon": "🔧",
+            "image_keyword": "dental crown"
+        }
+    ],
+    "cta": {
+        "title": "Schedule Your Appointment Today",
+        "subtitle": "Take the first step towards a healthier, happier smile."
+    },
+    "lead_id": 218,
+    "language": "en"
+}
