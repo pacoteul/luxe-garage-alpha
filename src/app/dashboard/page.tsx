@@ -40,20 +40,22 @@ const COUNTRIES = [
   { id: 'LU', label: 'Luxembourg', lang: 'fr' },
   { id: 'DE', label: 'Allemagne', lang: 'de' },
   { id: 'NL', label: 'Pays-Bas', lang: 'nl' },
-  { id: 'GB', label: 'Angleterre', lang: 'en' }
+  { id: 'GB', label: 'Angleterre', lang: 'en' },
+  { id: 'US', label: 'États-Unis', lang: 'en' }
 ];
 
 const CITIES_BY_COUNTRY: Record<string, string[]> = {
   'FR': ['Paris', 'Marseille', 'Lyon', 'Toulouse', 'Nice', 'Nantes', 'Montpellier', 'Strasbourg', 'Bordeaux', 'Lille', 'Rennes', 'Reims', 'Toulon', 'Saint-Étienne', 'Le Havre', 'Grenoble', 'Dijon', 'Angers'],
   'BE': ['Bruxelles', 'Anvers', 'Gand', 'Charleroi', 'Liège', 'Bruges', 'Namur', 'Louvain', 'Mons', 'Aalst'],
   'CH': ['Zurich', 'Genève', 'Bâle', 'Lausanne', 'Berne', 'Winterthour', 'Lucerne', 'Saint-Gall', 'Lugano', 'Bienne'],
-  'CA': ['Toronto', 'Montréal', 'Vancouver', 'Calgary', 'Edmonton', 'Ottawa', 'Québec', 'Winnipeg', 'Hamilton', 'Halifax'],
-  'CI': ['Abidjan', 'Bouaké', 'Daloa', 'Yamoussoukro', 'San-Pédro', 'Divo', 'Korhogo', 'Anyama', 'Abengourou', 'Man'],
-  'SN': ['Dakar', 'Pikine', 'Touba', 'Thiès', 'Kaolack', 'Mbour', 'Rufisque', 'Ziguinchor', 'Diourbel', 'Tambacounda'],
-  'LU': ['Luxembourg', 'Esch-sur-Alzette', 'Differdange', 'Dudelange', 'Ettelbruck', 'Diekirch'],
-  'DE': ['Berlin', 'Hambourg', 'Munich', 'Cologne', 'Francfort', 'Stuttgart', 'Düsseldorf', 'Leipzig', 'Dortmund', 'Essen'],
-  'NL': ['Amsterdam', 'Rotterdam', 'La Haye', 'Utrecht', 'Eindhoven', 'Groningue', 'Tilbourg', 'Almere', 'Bréda', 'Nimègue'],
-  'GB': ['Londres', 'Birmingham', 'Manchester', 'Glasgow', 'Newcastle', 'Sheffield', 'Liverpool', 'Leeds', 'Bristol', 'Édimbourg']
+  'CA': ['Montréal', 'Québec', 'Laval', 'Gatineau', 'Longueuil', 'Sherbrooke', 'Lévis', 'Saguenay', 'Trois-Rivières', 'Terrebonne', 'Toronto', 'Vancouver'],
+  'CI': ['Abidjan', 'Bouaké', 'Daloa', 'San-Pédro', 'Yamoussoukro', 'Korhogo', 'Man', 'Divo', 'Gagnoa', 'Abobo'],
+  'SN': ['Dakar', 'Touba', 'Thiès', 'Rufisque', 'Kaolack', 'M\'Bour', 'Ziguinchor', 'Saint-Louis', 'Diourbel', 'Louga'],
+  'LU': ['Luxembourg', 'Esch-sur-Alzette', 'Differdange', 'Dudelange', 'Ettelbruck', 'Diekirch', 'Wiltz', 'Echternach', 'Rumelange', 'Grevenmacher'],
+  'DE': ['Berlin', 'Hamburg', 'München', 'Köln', 'Frankfurt', 'Stuttgart', 'Düsseldorf', 'Leipzig', 'Dortmund', 'Essen'],
+  'NL': ['Amsterdam', 'Rotterdam', 'Den Haag', 'Utrecht', 'Eindhoven', 'Groningen', 'Tilburg', 'Almere', 'Breda', 'Nijmegen'],
+  'GB': ['London', 'Birmingham', 'Manchester', 'Glasgow', 'Newcastle', 'Sheffield', 'Liverpool', 'Leeds', 'Bristol', 'Edinburgh'],
+  'US': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose', 'Austin', 'Miami', 'San Francisco', 'Seattle', 'Boston', 'Las Vegas', 'Atlanta', 'Denver']
 };
 
 export default function Dashboard() {
