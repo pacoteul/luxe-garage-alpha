@@ -31,19 +31,19 @@
         {
             "title": "Luxury Properties",
             "description": "An exclusive selection of the finest homes in the region.",
-            "icon": "🏰",
+            "icon": "",
             "image_keyword": "luxury,villa,exotic"
         },
         {
             "title": "Bespoke Service",
             "description": "VIP and strictly confidential assistance at every step.",
-            "icon": "⭐",
+            "icon": "",
             "image_keyword": "mansion,pool,modern"
         },
         {
             "title": "Investment",
             "description": "Unique opportunities to grow and secure your wealth.",
-            "icon": "📈",
+            "icon": "",
             "image_keyword": "luxury,architecture,ocean"
         }
     ],
