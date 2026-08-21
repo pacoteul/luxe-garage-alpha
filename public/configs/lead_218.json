@@ -29,7 +29,8 @@
             "title": "General Dentistry",
             "description": "Preventive care and routine check-ups for a healthy smile. Our team is dedicated to providing you with the best possible care.",
             "icon": "💫",
-            "image_keyword": "dental exam"
+            "image_keyword": "dental exam",
+            "image_url": "/uploads/lead_218_service_0.jpg"
         },
         {
             "title": "Cosmetic Dentistry",
