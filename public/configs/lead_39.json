@@ -1,0 +1,28 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Révolutionnez votre sourire",
+    "hero_subtext": "Découvrez l'excellence en soins dentaires à la Geneva Dental Clinic",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "dentist",
+    "business_name": "Geneva Dental Clinic",
+    "reviews": [
+        {
+            "author": "Aurélie M.",
+            "rating": 5,
+            "text": "Je suis ravie de mes soins dentaires à la Geneva Dental Clinic ! L'équipe est très professionnelle et attentionnée."
+        },
+        {
+            "author": "Pierre D.",
+            "rating": 5,
+            "text": "J'ai enfin trouvé un dentiste qui me fait confiance ! Les soins sont de haute qualité et les prix sont très compétitifs."
+        },
+        {
+            "author": "Léa G.",
+            "rating": 5,
+            "text": "Je suis venue pour une consultation de routine et j'ai été surprise par la gentillesse et la compétence de l'équipe."
+        }
+    ],
+    "lead_id": 39
+}
