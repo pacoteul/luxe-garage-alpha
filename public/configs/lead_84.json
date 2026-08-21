@@ -1,0 +1,49 @@
+{
+    "lead_id": 84,
+    "name": "4 BROTHER CAR AUTO REPAIR CENTRE",
+    "business_name": "4 BROTHER CAR AUTO REPAIR CENTRE",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "L'artisanat d'exception.",
+    "hero_subtext": "Le goût authentique d'une tradition préservée chaque matin.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "food",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Le meilleur pain de la région, un vrai délice !"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "Une boulangerie exceptionnelle, accueil chaleureux."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Des viennoiseries parfaites chaque matin."
+        }
+    ],
+    "services": [
+        {
+            "title": "Pains Spéciaux",
+            "description": "Des pains façonnés à la main avec passion.",
+            "icon": "🥖",
+            "image_keyword": "bakery,bread"
+        },
+        {
+            "title": "Viennoiseries",
+            "description": "Le croustillant parfait chaque matin.",
+            "icon": "🥐",
+            "image_keyword": "croissant,pastry"
+        },
+        {
+            "title": "Pâtisseries",
+            "description": "Des créations douces et audacieuses.",
+            "icon": "🍰",
+            "image_keyword": "cake,patisserie"
+        }
+    ]
+}
