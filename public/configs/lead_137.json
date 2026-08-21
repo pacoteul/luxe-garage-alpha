@@ -1,0 +1,49 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Votre maison, notre passion",
+    "hero_subtext": "Découvrez nos propriétés de rêve à Nice",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "realestate",
+    "business_name": "Domi Nice Immobilier",
+    "reviews": [
+        {
+            "author": "Sophie L.",
+            "rating": 5,
+            "text": "Très satisfaite de mon expérience avec Domi Nice Immobilier ! L'équipe est professionnelle et réactive."
+        },
+        {
+            "author": "Pierre D.",
+            "rating": 5,
+            "text": "Je recommande vivement Domi Nice Immobilier pour trouver votre maison de rêve à Nice. Service impeccable !"
+        },
+        {
+            "author": "Marie C.",
+            "rating": 5,
+            "text": "Merci à l'équipe de Domi Nice Immobilier pour leur aide précieuse dans la recherche de ma nouvelle propriété. Je suis ravie !"
+        }
+    ],
+    "services": [
+        {
+            "title": "Achat de propriétés",
+            "description": "Nous vous aidons à trouver votre maison de rêve à Nice. Notre équipe de professionnels vous accompagne tout au long du processus.",
+            "icon": "🏠",
+            "image_keyword": "luxury home"
+        },
+        {
+            "title": "Location de propriétés",
+            "description": "Nous proposons une sélection de propriétés à louer à Nice. Notre équipe vous aide à trouver le bien qui correspond à vos besoins.",
+            "icon": "🏡",
+            "image_keyword": "apartment rental"
+        },
+        {
+            "title": "Gestion de propriétés",
+            "description": "Nous offrons des services de gestion de propriétés pour les propriétaires qui souhaitent louer leur bien. Notre équipe s'occupe de tout.",
+            "icon": "📈",
+            "image_keyword": "property management"
+        }
+    ],
+    "lead_id": 137,
+    "language": "fr"
+}
