@@ -36,7 +36,8 @@
             "title": "Cosmetic Dentistry",
             "description": "Transform your smile with our advanced cosmetic dentistry services. From teeth whitening to veneers, we've got you covered.",
             "icon": "✨",
-            "image_keyword": "smile makeover"
+            "image_keyword": "smile makeover",
+            "image_url": "/uploads/lead_218_service_1.jpg"
         },
         {
             "title": "Restorative Dentistry",
