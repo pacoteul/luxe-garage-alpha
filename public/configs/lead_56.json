@@ -1,0 +1,28 @@
+{
+    "primary_color": "#3498db",
+    "secondary_color": "#2c3e50",
+    "typography": "Montserrat",
+    "hero_text": "Réinventez votre espace avec Maestro Rénovations",
+    "hero_subtext": "Des solutions de construction innovantes pour transformer vos rêves en réalité",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "construction",
+    "business_name": "Maestro Rénovations",
+    "reviews": [
+        {
+            "author": "Aurélie M.",
+            "rating": 5,
+            "text": "Nous avons fait appel à Maestro Rénovations pour rénover notre maison et nous sommes absolument ravis du résultat ! L'équipe est professionnelle, ponctuelle et à l'écoute de vos besoins."
+        },
+        {
+            "author": "Pierre D.",
+            "rating": 5,
+            "text": "Maestro Rénovations a réalisé un travail exceptionnel sur notre chantier. La qualité des matériaux, la précision des délais et la propreté des lieux ont dépassé nos attentes."
+        },
+        {
+            "author": "Sophie L.",
+            "rating": 5,
+            "text": "Je recommande vivement Maestro Rénovations pour toute rénovation ou construction. L'équipe est dynamique, créative et toujours prête à vous aider à trouver la solution idéale pour votre projet."
+        }
+    ],
+    "lead_id": 56
+}
