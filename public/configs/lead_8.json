@@ -1,0 +1,29 @@
+{
+    "lead_id": 8,
+    "name": "Boulangerie-Pâtisserie de Collonge-Bellerive BPCB SA",
+    "business_name": "Boulangerie-Pâtisserie de Collonge-Bellerive BPCB SA",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "L'artisanat d'exception.",
+    "hero_subtext": "Le goût authentique d'une tradition préservée chaque matin.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "food",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Le meilleur pain de la région, un vrai délice !"
+        },
+        {
+            "author": "Marie L.",
+            "rating": 5,
+            "text": "Une qualité exceptionnelle et un savoir-faire unique."
+        },
+        {
+            "author": "Paul Dubois",
+            "rating": 5,
+            "text": "Impossible de s'en passer. Leurs viennoiseries sont divines."
+        }
+    ]
+}
