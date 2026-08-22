@@ -44,7 +44,8 @@
             "title": "Private Chauffeur",
             "description": "Premium transportation services available 24/7.",
             "icon": "🚘",
-            "image_keyword": "vip,limousine,luxury"
+            "image_keyword": "vip,limousine,luxury",
+            "image_url": "/uploads/lead_205_service_2.jpg"
         }
     ],
     "cta": {
