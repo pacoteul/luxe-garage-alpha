@@ -9,7 +9,7 @@
     "hero_text": "Excellence at your service.",
     "hero_subtext": "A preserved tradition, at your service.",
     "gsap_stagger": 0.2,
-    "spline_scene_id": "architecture",
+    "spline_scene_id": "concierge",
     "reviews": [
         {
             "author": "Jean P.",
@@ -32,7 +32,8 @@
             "title": "Custom Strategy",
             "description": "A personalized approach to reach your goals with precision.",
             "icon": "⭐",
-            "image_keyword": "strategy"
+            "image_keyword": "strategy",
+            "image_url": "/uploads/lead_211_service_0.jpg"
         },
         {
             "title": "Flawless Execution",
