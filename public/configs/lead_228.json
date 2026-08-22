@@ -39,7 +39,8 @@
             "title": "Accès VIP",
             "description": "Les meilleures tables et les événements les plus prestigieux.",
             "icon": "🥂",
-            "image_keyword": "luxury,yacht,ocean"
+            "image_keyword": "luxury,yacht,ocean",
+            "image_url": "/uploads/lead_228_service_1.jpg"
         },
         {
             "title": "Chauffeur Privé",
