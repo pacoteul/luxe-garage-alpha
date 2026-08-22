@@ -46,7 +46,8 @@
             "title": "Chauffeur Privé",
             "description": "Un service de transport haut de gamme disponible 24/7.",
             "icon": "🚘",
-            "image_keyword": "vip,limousine,luxury"
+            "image_keyword": "vip,limousine,luxury",
+            "image_url": "/uploads/lead_228_service_2.jpg"
         }
     ],
     "cta": {
