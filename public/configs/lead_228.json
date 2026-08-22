@@ -32,7 +32,8 @@
             "title": "Voyages Exclusifs",
             "description": "Jets privés, yachts et villas de rêve aux quatre coins du globe.",
             "icon": "✈️",
-            "image_keyword": "private,jet,luxury"
+            "image_keyword": "private,jet,luxury",
+            "image_url": "/uploads/lead_228_service_0.webp"
         },
         {
             "title": "Accès VIP",
