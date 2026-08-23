@@ -9,7 +9,7 @@
     "hero_text": "L'excellence à votre service.",
     "hero_subtext": "Une tradition préservée, au service de vos attentes.",
     "gsap_stagger": 0.2,
-    "spline_scene_id": "concierge",
+    "spline_scene_id": "finance",
     "reviews": [
         {
             "author": "Jean P.",
@@ -32,7 +32,8 @@
             "title": "Stratégie sur-mesure",
             "description": "Une approche personnalisée pour atteindre vos objectifs avec précision.",
             "icon": "⭐",
-            "image_keyword": "strategy"
+            "image_keyword": "strategy",
+            "image_url": "/uploads/lead_241_service_0.jpg"
         },
         {
             "title": "Exécution Parfaite",
