@@ -1,0 +1,54 @@
+{
+    "lead_id": 252,
+    "name": "La Financière de Nice",
+    "business_name": "La Financière de Nice",
+    "language": "fr",
+    "primary_color": "#D4AF37",
+    "secondary_color": "#2c1e16",
+    "typography": "Playfair Display",
+    "hero_text": "Sécurisez votre avenir financier.",
+    "hero_subtext": "Des solutions d'investissement intelligentes et sur-mesure.",
+    "gsap_stagger": 0.2,
+    "spline_scene_id": "finance",
+    "reviews": [
+        {
+            "author": "Jean P.",
+            "rating": 5,
+            "text": "Service exceptionnel, je recommande vivement !"
+        },
+        {
+            "author": "Sophie M.",
+            "rating": 5,
+            "text": "Une équipe très professionnelle et à l'écoute."
+        },
+        {
+            "author": "Marc D.",
+            "rating": 5,
+            "text": "Très satisfait de la qualité de la prestation."
+        }
+    ],
+    "services": [
+        {
+            "title": "Gestion de Patrimoine",
+            "description": "Une stratégie personnalisée pour faire fructifier vos actifs.",
+            "icon": "📈",
+            "image_keyword": "finance,graph"
+        },
+        {
+            "title": "Sécurité Maximale",
+            "description": "Vos données et vos fonds protégés par les dernières technologies.",
+            "icon": "🔒",
+            "image_keyword": "security,vault"
+        },
+        {
+            "title": "Conseil Expert",
+            "description": "Des conseillers dédiés pour vous guider à chaque étape.",
+            "icon": "💡",
+            "image_keyword": "consulting"
+        }
+    ],
+    "cta": {
+        "title": "Ouvrez un compte",
+        "subtitle": "Prenez le contrôle de vos finances dès aujourd'hui."
+    }
+}
